@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <test name="Guru99LoginPageTest">
+    <classes>
+      <class name="com.guru99automation.testcases.Guru99LoginPageTest"/>
+    </classes>
+  </test> <!-- Guru99LoginPageTest -->
+  <test name="Guru99LoginPageTest(failed)">
+    <classes>
+      <class name="com.guru99automation.testcases.Guru99LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="LoginTest"/>
+        </methods>
+      </class> <!-- com.guru99automation.testcases.Guru99LoginPageTest -->
+    </classes>
+  </test> <!-- Guru99LoginPageTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
